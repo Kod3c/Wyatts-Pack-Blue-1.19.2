@@ -1,0 +1,16 @@
+.fabric/
+data/
+defaultconfigs/
+fancymenu_data/
+fancymenu_setups/
+localconfigs/
+logs/
+moddata/
+patchouli_books/
+saves/
+stackdeobf_mappings/
+XaeroWaypoints_BACKUP032021/
+minecraftinstance.json
+patchouli_data.json
+servers.dat_old
+usercache.json
