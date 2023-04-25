@@ -1,0 +1,67 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_442
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  restart_on_load = false
+  name = mc_cave_animation_2cfb5f2c6ab641c1
+  action = animatebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 2
+  width = 165
+  action = deep_customization_element:title_screen_branding
+  actionid = 99938cd6-72ca-4268-8342-9ffdd311059e1682359107396
+  y = 319
+  height = 10
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 423
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = e65d5bb7-f83e-4f87-9631-e4f733ffdc5f1682359107408
+  y = 182
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 183
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 522f8eaf-4459-474e-9d5d-03747794db831682359107408
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = false
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 5215824a-a6ef-4a66-b692-6535cc5201961682359107408
+  y = 0
+  height = 30
+}
+

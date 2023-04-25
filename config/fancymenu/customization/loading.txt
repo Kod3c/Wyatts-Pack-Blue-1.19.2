@@ -1,0 +1,102 @@
+type = menu
+
+customization-meta {
+  identifier = de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = wyattspanorama
+  action = setbackgroundpanorama
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  original_pos_size_calculation = true
+  x = 155
+  width = 330
+  action = deep_customization_element:drippy_overlay_logo
+  actionid = fca9e083-3c5c-4cb7-a877-58740cd6ca861682378482806
+  y = 124
+  height = 82
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = -1000000
+  width = 0
+  action = deep_customization_element:drippy_overlay_background
+  actionid = d1df207c-647b-40b7-bec0-bab67f4aea2b1682378482807
+  y = -1000000
+  height = 0
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  original_pos_size_calculation = true
+  x = 155
+  width = 330
+  action = deep_customization_element:drippy_overlay_progress_bar
+  actionid = 6da65b1e-0c21-4c7b-854e-678bc45df0aa1682378482807
+  y = 270
+  height = 10
+}
+
+customization {
+  orientation = top-left
+  background_color = #ffd79e
+  x = -2
+  width = 643
+  bar_color = #fc9403
+  action = custom_layout_element:drippy_custom_loading_bar
+  actionid = 4f191952-f053-4f86-ae1b-6a267ec6daa91682378500353
+  y = 325
+  progress_for_element_orientation = false
+  direction = right
+  height = 12
+}
+
+customization {
+  path = resourcepacks/Graphics/logo.png
+  orientation = top-left
+  x = 206
+  width = 222
+  action = addtexture
+  actionid = 914b0a5e-f0ff-4ce7-a4e3-f3a8eb67316c1682378697174
+  y = 223
+  height = 64
+}
+
+customization {
+  orientation = top-left
+  name = mc_cave_animation
+  x = 0
+  width = 100
+  actionid = f25ebcf0-5f08-434c-8fa8-dbdce31bc7621682378735568
+  action = addanimation
+  y = 6
+  height = 100
+}
+
+customization {
+  path = resourcepacks/Graphics/lps.png
+  orientation = top-left
+  x = 244
+  width = 149
+  action = addtexture
+  actionid = a9c86a8d-0e2e-4239-8ba3-a6ccf3cc5ad21682379120280
+  y = 295
+  height = 24
+}
+

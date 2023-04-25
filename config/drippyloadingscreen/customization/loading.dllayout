@@ -1,0 +1,34 @@
+type = hud
+
+customization-meta {
+  randomgroup = 1
+  keepaspectratio = false
+  backgroundimage = resourcepacks/Graphics/loading.png
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  visible = false
+  action = editlogo
+}
+
+customization {
+  x = 18
+  action = editprogressbar
+  y = -301
+  barcolor = #22c7d1
+}
+
+customization {
+  path = resourcepacks/Graphics/lps.png
+  orientation = bottom-left
+  x = 7
+  width = 165
+  action = addtexture
+  actionid = 3fd4f107-c75c-4694-81f6-96d4a83150601661099266472
+  y = -7
+  height = 29
+}
+

@@ -1,0 +1,12 @@
+type = menu
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=658972%
+  action = hidebutton
+}
+

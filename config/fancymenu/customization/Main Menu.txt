@@ -1,0 +1,258 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_442
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = wyattspanorama
+  action = setbackgroundpanorama
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = 17
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  width = 175
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
+  orientation = mid-centered
+  x = 102
+  action = movebutton
+  y = 17
+}
+
+customization {
+  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
+  width = 20
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  orientation = mid-centered
+  x = 104
+  action = movebutton
+  y = 53
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = mid-centered
+  x = 77
+  action = movebutton
+  y = 17
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 23
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = setbuttonlabel
+  value = SP
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = 53
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 200
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = mid-centered
+  x = 2
+  action = movebutton
+  y = 53
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = mid-centered
+  x = -124
+  action = movebutton
+  y = 53
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 165
+  action = deep_customization_element:title_screen_branding
+  actionid = 2d09e60e-5ce4-4068-92ce-245582d6ba5a1657065014621
+  y = 445
+  height = 10
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 530
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 81ed82cc-e20b-420b-b2fe-e5eada89e82a1657065014623
+  y = 220
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 290
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 0e037e93-8005-4fc7-9c90-ec07236ce65e1657065014623
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = mid-centered
+  splash_color = #ffff00
+  hidden = false
+  x = -100
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = e38f4f34-4066-4300-bff7-6f01093879b81657065014623
+  y = -58
+  splash_file_path = splash.txt
+  height = 30
+}
+
+customization {
+  path = resourcepacks/Graphics/fabricapi.png
+  orientation = mid-centered
+  x = 104
+  width = 15
+  action = addtexture
+  actionid = fd6ba454-f4e0-4f6e-8dd5-1b46bf68c6681638450639793
+  y = 20
+  height = 14
+}
+
+customization {
+  path = resourcepacks/Graphics/logo.png
+  orientation = mid-centered
+  x = -117
+  width = 256
+  action = addtexture
+  actionid = e43eec72-2dc2-4010-b362-081dff259a8e1661099182821
+  y = -69
+  height = 82
+}
+
+customization {
+  orientation = bottom-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://live.staticflickr.com/1290/761601969_f58935858f_b.jpg%btnaction_splitter_fm%
+  x = 3
+  width = 105
+  actionid = f3d511d8-b81d-4deb-bf6b-891eda3534711673352859513
+  action = addbutton
+  y = -24
+  label = Click for Surprise
+  value = 
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  copy_client_player = true
+  slim = false
+  auto_skin = false
+  scale = 45
+  headrotationy = -18.75
+  headrotationx = 33.75
+  skinurl = http://textures.minecraft.net/texture/37afea4272eb12e6dd0dad3e12edcc03198682353564d33a80411a21e8b99f92
+  showname = false
+  crouching = false
+  follow_mouse = false
+  x = 578
+  width = 27
+  parrot_left_shoulder = false
+  action = custom_layout_element:fancymenu_customization_player_entity
+  actionid = d441ed29-438e-42ed-bb82-32d2392eda391682379475093
+  y = 236
+  playername = TheWebDev
+  bodyrotationx = 33.75
+  parrot = false
+  bodyrotationy = 11.25
+  auto_cape = false
+  is_baby = false
+  height = 81
+}
+
+customization {
+  path = resourcepacks/Graphics/lps.png
+  orientation = top-left
+  x = 252
+  width = 143
+  action = addtexture
+  actionid = 7f1a9c41-9dab-4c87-8655-1e3494b9a2bb1682379643202
+  y = 296
+  height = 25
+}
+
+customization {
+  identifier = %id=352394%
+  action = hidebutton
+}
+
